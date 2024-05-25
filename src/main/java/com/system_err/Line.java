@@ -18,6 +18,6 @@ public class Line implements Mappable {
 
     @Override
     public String toString() {
-        return "RENDER \"" + name + "\" AS " + this.getClass().getSimpleName().toUpperCase() + " (" + Arrays.deepToString(points) + ")";
+        return "RENDER \"" + name + "\" AS " + this.getClass().getSimpleName().toUpperCase() + " (" + Arrays.deepToString(points) + ")\n";
     }
 }
